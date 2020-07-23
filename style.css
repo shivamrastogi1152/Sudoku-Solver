@@ -1,0 +1,149 @@
+.body{
+    background-color: red;
+}
+
+#container{
+    height: auto;
+    width: 540px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly ; 
+    margin: 0 auto;
+    
+}
+
+#generate-sudoku{
+    margin:auto;
+    display:block;
+    color: white;
+    background-color: black;
+    border: black 1px solid;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+
+#solve{
+    margin:auto;
+     display:block;
+     color: white;
+     background-color: black;
+     border: black 1px solid;
+     border-radius: 50px;
+     transition: 0.3s;
+}
+
+#generate-sudoku:hover{
+    transform: scale(1.4);
+}
+
+#solve:hover{
+    transform: scale(1.4);
+}
+
+#container div{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px; 
+    font-size: 30px; 
+    color: white;
+    transition: 0.2s;
+    
+}
+
+#container div:hover{
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.lsb{
+    border-left: white 5px solid;
+}
+
+.bsb{
+    border-bottom: white 5px solid;
+}
+
+.rsb{
+    border-right: white 5px solid;
+}
+
+.tsb{
+    border-top: white 5px solid;
+}
+
+
+.ldb{
+    border-left: white 0.6px dashed;
+}
+
+.bdb{
+    border-bottom: white 0.6px dashed;
+}
+
+.rdb{
+    border-right: white 0.6px dashed;
+}
+
+.tdb{
+    border-top:  0.6px dashed;
+}
+
+.heading{
+    margin-left: 550px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.select{
+    margin-left: 538px;
+}
+
+.easy{
+     color: white;
+     background-color: black;
+     border: black 1px solid;
+     border-radius: 50px;
+     transition: 0.3s;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+.medium{
+     color: white;
+     background-color: black;
+     border: black 1px solid;
+     border-radius: 50px;
+     transition: 0.3s;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+.difficult{
+     color: white;
+     background-color: black;
+     border: black 1px solid;
+     border-radius: 50px;
+     transition: 0.3s;
+     margin-left: 10px;
+     margin-right: 10px;    
+}
+
+.easy:hover{
+    transform: scale(1.2);
+}
+.medium:hover{
+    transform: scale(1.2);
+}
+.difficult:hover{
+    transform: scale(1.2);
+}
+
+.select{
+    font-weight: 1000;
+}
